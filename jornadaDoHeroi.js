@@ -5,7 +5,7 @@ informacoesHeroi = [nomeHeroi,xpHeroi]
 
 if (xpHeroi <= 1000){
     console.log("O Heroi de nome " + informacoesHeroi[0] + " está no nivel de Ferro")
-} else if (informacoesHeroi[1] => 10001 || informacoesHeroi[1] <= 2000){
+} else if (xpHeroi => 10001 || xpHeroi <= 2000){
     console.log("O Heroi de nome " + informacoesHeroi[0] + " está no nivel de Bronze" )
 }else if (xpHeroi => 2001 || xpHeroi <= 5000){
     console.log("O Heroi de nome " + informacoesHeroi[0] +" está no nivel de Prata")
@@ -24,4 +24,3 @@ if (xpHeroi <= 1000){
 
 
 
-informacoesHeroi[1]
